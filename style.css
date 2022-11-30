@@ -1,17 +1,26 @@
-
-#footer-bottom{
+@charset "utf-8";
+footer#footer-bottom {
     background: #fff;
+    color: #444;
     text-align: center;
     padding-bottom: 40px;
     border-bottom: 1px solid #f3f3f3;
-    padding: 1rem;
+  }
+
+  #copy-rights {
+    margin-top: 10px;
+    color: #c6c6c6;
+  }
+
+
+@media (min-width: 1200px) {
+    .container {
+      width: 80vw;
+    }
 }
 
-body{ min-height: 100vh; margin:0; }
-
-header{ min-height:50px; background:lightcyan; }
-footer{ min-height:50px; background:rgb(225, 123, 123); }
-
-/* The article fills all the space between header & footer */
-body{ display:flex; flex-direction:column; }
-article{ flex:1; }
+@media (min-width: 1200px){
+.container {
+    width: 80vw;    
+    }
+}
