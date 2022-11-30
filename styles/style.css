@@ -3,6 +3,7 @@
 :root{
         --main-color: rgb(255, 255, 255);
         --black-color: rgb(123, 123, 123) ;
+       
 
 }
 
@@ -73,7 +74,138 @@ body{
     background-color: white;
 
   }
-
-
-
+  .dropbtn {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0 7%;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+ 
     /* header end */
+
+
+/* iletişim css'i başı*/
+
+.iletisimheaderbuttons {
+    margin-left: 10rem;
+    color: black;
+    padding: 1rem;
+}
+
+.contact section{
+    display: flex;
+}
+.contact{
+    display: flex;
+    gap: 1rem;
+    }
+
+    .contact form h2{
+        width: 300%;
+        font-size: 2.1rem;
+        padding: 0 7%;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        
+    }
+    
+
+.contact form .inputBox{
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    border-radius: 30%;
+    border-color: grey;
+}
+
+.contact form .inputBox input{
+    width: 300%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    text-transform: none;
+    background-color: none;
+    
+}
+.iletişimbilgileri{
+    margin-left: 40rem;
+    margin-top: 2rem;
+
+}
+.iletişimbilgileri h1{
+    font-size: 2.1rem;
+}
+
+
+.iletişimbilgileri h3{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.iletişimbilgileri h4{
+    margin-top: 5.5rem;
+    font-size: 1.5rem;
+
+}
+
+.contact form .btn1{
+    margin-left: 8rem;
+    color: white;
+    background-color: #6fa931;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 50px ;
+    margin-bottom: 4rem;
+
+}
+
+.contact form .btn2{
+    
+    margin-left: 0.1rem;
+    color: rgb(2, 2, 2);
+    background-color: #ffffff;
+    font-weight: bold;
+    border-color: grey;
+    border-radius: 50px;
+    
+}
+
+
+
+/* iletişim css'i sonu*/
+
+
+
+
+
+
