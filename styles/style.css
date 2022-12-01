@@ -145,6 +145,7 @@ body{
     margin-bottom: 2rem;
     border-radius: 30%;
     border-color: grey;
+
 }
 
 .contact form .inputBox input{
@@ -154,27 +155,33 @@ body{
     color: black;
     text-transform: none;
     background-color: none;
+    border-radius: 30px;
+    border: 1px solid rgba(109, 105, 105, 0.5);
     
 }
 .iletişimbilgileri{
     margin-left: 40rem;
     margin-top: 2rem;
+    
 
 }
 .iletişimbilgileri h1{
     font-size: 2.1rem;
+    
 }
 
 
 .iletişimbilgileri h3{
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    color: rgb(96, 93, 93);
 
 }
 
 .iletişimbilgileri h4{
     margin-top: 5.5rem;
     font-size: 1.5rem;
+    
 
 }
 
@@ -186,6 +193,8 @@ body{
     border-color: white;
     border-radius: 50px ;
     margin-bottom: 4rem;
+    height: 3.5rem;
+    border: 1px solid rgba(109, 105, 105, 0.5);
 
 }
 
@@ -197,7 +206,8 @@ body{
     font-weight: bold;
     border-color: grey;
     border-radius: 50px;
-    
+    height: 3.5rem;
+    border: 1px solid rgba(109, 105, 105, 0.5);
 }
 
 
