@@ -165,7 +165,54 @@ body{
 }
 
 
+.güncelblog h1{
+    padding-top: 2rem;
+    padding-left: 25rem;
+}
 
+
+/* alt slider start */
+/* Slideshow container2 */
+
+.slideshow-container2 {
+    max-width: 160rem;
+    position: relative;
+    margin: auto;
+    padding-left: 23rem;
+    padding-top: 2rem;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+    right: 96.8rem;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover, .next2:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  
+
+/*alt slider end */
 
 
 
@@ -415,3 +462,145 @@ body{
     padding-bottom: 5rem;
 
 }
+
+
+@media (min-width: 992px){
+    .side1 {
+        width: 25%;
+           } 
+    }
+    
+    
+    @media (min-width: 1200px){
+    .content {
+        width: 80vw;
+               }
+    }
+    
+    body{
+        min-height: 100vh;
+        width: 100%;
+        background: rgb(255, 255, 255);
+    }
+    
+    footer
+    {
+        position: relative;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        bottom: 20%;
+        left: 0;
+        padding-bottom: 20px;
+        padding-top: 20px
+    }
+    
+    #Bottom-footer 
+    {
+        text-align: center;
+        color: #c6c6c6;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        bottom: 1%;
+    }   
+    
+    .content
+    {
+        background-color: #ffffff;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 30px;
+    }
+    
+    footer .container{
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        display: flex;
+        
+    }
+    
+    
+    footer .container .side1 .side1-text
+    {
+        color :#c6c6c6;
+    }
+    
+    
+    footer .container .side2
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
+    
+    footer .container .side2 .side2-col1 .side2-box
+    {
+        width: calc(100%/5-10px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    footer .container .side2 .side2-col2 .side2-box
+    {
+        width: calc(100%/5-10px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    footer .container .side2 .side2-col3 .side2-box
+    {
+        width: calc(100%/5-10px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    footer .container .side2 .side2-col4 .side2-box
+    {
+        width: calc(100%/5-10px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    footer .container .side2  .side2-box .side2-linkname
+    {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: 400px;
+        margin-bottom: 5px;
+        position: relative;
+    }
+    
+    footer li{
+        list-style: none;
+    }
+    
+    footer a:hover{
+        color: rgb(3, 171, 101);
+    }
+    
+    
+    footer li a{
+        color: #c6c6c6;
+        text-decoration: none;
+    }
+    
+    .page .content .content-alt p{
+        padding-bottom: 1rem;
+    }
+    
+    
+    
+    hr {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    #hr-bot{
+        margin-top: 16px;
+        margin-bottom:16px;
+    }
