@@ -81,13 +81,161 @@
 </body>
 
 
-
-
-
-
- 
 <input type="text" 
  placeholder="En Sevdiğin Parmüfü Buradan Aratarak Bulabilirsin">
+
+
+
+
+ <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <a href="https://www.e-bargello.com/niche-parfum-169">
+
+      <img src="C:\vuejs\my-app\my-appnice\images\slider1.jpg" 
+      height="500"
+      style="width:100%"
+      >
+
+    </a>
+    
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <a href="https://www.e-bargello.com/bargello-good-luck-diamond-erkek-50-ml-parfum-edp-1465">
+
+      <img src="C:\vuejs\my-app\my-appnice\images\slider2.jpg" 
+      height="500"
+      style="width:100%"
+      >
+
+    </a>
+    
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <a href="https://www.e-bargello.com/erkek-parfum-86">
+
+      <img src="C:\vuejs\my-app\my-appnice\images\slider3.jpg" 
+      height="500"
+      style="width:100%"
+      >
+
+    </a>
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+
+    <a href="https://www.e-bargello.com/sivi-sabun-parfum-173">
+
+      <img src="C:\vuejs\my-app\my-appnice\images\slider4.jpg" 
+      height="500"
+      style="width:100%"
+      >
+
+    </a>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <div>
+    <div class="kargofoto">
+      <img src="C:\vuejs\my-app\my-appnice\images\kargofoto.png" alt=""
+      width="900" height="100"
+      >
+  </div>
+
+  
+
+  
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+      
+    }
+    
+    function currentSlide(n) {
+      
+      showSlides(slideIndex = n);
+      
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+     
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      
+    }
+
+  
+    
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--Menü start  --> 
