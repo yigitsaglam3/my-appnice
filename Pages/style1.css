@@ -11,6 +11,13 @@
        } 
 }
 
+
+@media (min-width: 1200px){
+.content {
+    width: 80vw;
+           }
+}
+
 body{
     min-height: 100vh;
     width: 100%;
@@ -19,7 +26,7 @@ body{
 
 footer
 {
-    position: fixed;
+    position: relative;
     background: rgb(255, 255, 255);
     width: 100%;
     bottom: 20%;
@@ -37,7 +44,15 @@ footer
     bottom: 1%;
 }   
 
-
+.content
+{
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+}
 
 footer .container{
     padding-left: 50px;
@@ -113,6 +128,10 @@ footer a:hover{
 footer li a{
     color: #c6c6c6;
     text-decoration: none;
+}
+
+.page .content .content-alt p{
+    padding-bottom: 1rem;
 }
 
 
