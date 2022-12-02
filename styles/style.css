@@ -604,3 +604,223 @@ body{
         margin-top: 16px;
         margin-bottom:16px;
     }
+
+
+
+/* üye ol start */
+
+
+    .ÜyeOlheaderbuttons {
+        margin-left: 10rem;
+        color: black;
+        padding: 1rem;
+    }
+
+
+
+    .üyeol h1{
+
+        padding-left: 75rem;
+        padding-top: 5rem;
+        
+
+    }
+
+
+    .bilgiler .inputBox1{
+        padding-left: 63rem;
+        padding-top: 5rem;
+    }
+
+    .bilgiler .inputBox1 .ib1{
+
+         text-align: left;
+         border-radius: 10rem;
+         height: 6rem;
+         width: 30rem;
+        
+    }
+    .bilgiler .inputBox2{
+        padding-left: 63rem;
+        padding-top: 2rem;
+        
+    }
+
+    .bilgiler .inputBox2 .ib2{
+
+         text-align: left;
+         border-radius: 10rem;
+         height: 6rem;
+         width: 30rem;
+         
+    }
+    .bilgiler .inputBox3{
+        padding-left: 63rem;
+        padding-top: 2rem;
+    }
+
+    .bilgiler .inputBox3 .ib3{
+
+         text-align: left;
+         border-radius: 10rem;
+         height: 6rem;
+         width: 30rem;
+        
+    }
+
+    .bilgiler .checkbox{
+        padding-left: 63rem;
+        padding-top: 5rem;
+    }
+
+
+    .bilgiler .fnt{
+        padding-left: 63rem;
+        padding-top: 3rem;
+        
+    }
+
+    .bilgiler .fnt .fbook{
+        background-color: rgb(5, 159, 202);
+        border-radius: 10rem;
+        height: 5rem;
+        width: 15rem;
+        text-align: center;
+        border-color: transparent;
+        color: white;
+        
+    }
+    .bilgiler .fnt .twt{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10rem;
+        height: 5rem;
+        width: 15rem;
+        text-align: center;
+        border-color:rgb(5, 159, 202) ;
+        color: rgb(5, 159, 202);
+        
+    }
+
+    
+    .kayıtol{
+        padding-left: 63rem;
+        padding-top: 2rem;
+        
+    }
+
+   .kayıtol .btnkytol{
+    width: 30rem;
+    height: 4rem;
+    border-radius: 10rem;
+    background-color: #6fa931;
+    border: transparent;
+    color: white;
+
+   }
+/* üye ol end */
+
+/*üye girişi start */
+
+.üyegirişi h1{
+
+    padding-left: 75rem;
+    padding-top: 5rem;
+    
+
+}
+
+.bilgiler2 .inputBox11{
+    padding-left: 63rem;
+    padding-top: 5rem;
+}
+
+.bilgiler2 .inputBox11 .ib11{
+
+     text-align: left;
+     border-radius: 10rem;
+     height: 6rem;
+     width: 30rem;
+    
+}
+.bilgiler2 .inputBox22{
+    padding-left: 63rem;
+    padding-top: 2rem;
+    
+}
+
+.bilgiler2 .inputBox22 .ib22{
+
+     text-align: left;
+     border-radius: 10rem;
+     height: 6rem;
+     width: 30rem;
+     
+}
+
+
+.bilgiler2 .checkbox2{
+    padding-left: 63rem;
+    padding-top: 5rem;
+}
+
+
+.bilgiler2 .fnt2{
+    padding-left: 63rem;
+    padding-top: 3rem;
+    
+}
+
+.bilgiler2 .fnt2 .fbook2{
+    background-color: rgb(5, 159, 202);
+    border-radius: 10rem;
+    height: 5rem;
+    width: 15rem;
+    text-align: center;
+    border-color: transparent;
+    color: white;
+    
+}
+.bilgiler2 .fnt2 .twt2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10rem;
+    height: 5rem;
+    width: 15rem;
+    text-align: center;
+    border-color:rgb(5, 159, 202) ;
+    color: rgb(5, 159, 202);
+    
+}
+
+
+.girişyap{
+    padding-left: 63rem;
+    padding-top: 2rem;
+    
+}
+
+.girişyap .btngirisyap{
+width: 30rem;
+height: 4rem;
+border-radius: 10rem;
+background-color: #6fa931;
+border: transparent;
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* üye girişi end */
+
