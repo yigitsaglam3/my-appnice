@@ -45,7 +45,9 @@ footer .container{
     padding-right: 50px;
     padding-bottom: 20px;
     display: flex;
+    
 }
+
 
 footer .container .side1 .side1-text
 {
@@ -103,10 +105,17 @@ footer li{
     list-style: none;
 }
 
+footer a:hover{
+    color: rgb(3, 171, 101);
+}
+
+
 footer li a{
     color: #c6c6c6;
     text-decoration: none;
 }
+
+
 
 hr {
     margin-top: 8px;
