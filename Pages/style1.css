@@ -5,6 +5,33 @@
     font-family: "Poppins" , sans-serif;
 }
 
+@media (min-width: 1200px){
+#page .container{
+
+    width: 80vw;
+
+    }
+}
+
+@media (min-width: 992px){
+#page .container .block-lefts{
+    width: 25%;
+      }
+}
+
+@media (min-width: 992px){
+    #page .container .block-rights{
+        width: 75%;
+          }
+    }
+
+
+@media (min-width: 990px){
+        #page .container .block-rights .block-rights-content{
+            width: 10%;
+              }
+        }
+
 @media (min-width: 992px){
 .side1 {
     width: 25%;
@@ -22,6 +49,83 @@ body{
     min-height: 100vh;
     width: 100%;
     background: rgb(255, 255, 255);
+}
+#page{
+
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+#page .container
+{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+#page .container .blog-rights 
+{
+
+    padding-left: 50px;
+}
+
+#page .container .blog-rights .block-rights-content
+{  
+width: 869px;
+height: 964px;
+background-color: rgb(255, 255, 255);
+padding-right: 15px;
+padding-left: 15px;
+clear: both;
+display: flex;
+flex-wrap: wrap;
+border-left: 1px solid rgb(228, 228, 228);
+
+}
+
+#page .container .blog-rights  .block-rights-content .brc-sblok
+{
+ color: rgb(0, 0, 0);
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 20px;
+ width: 259px;
+ text-align: center;
+ text-size-adjust: 50%;
+}
+
+
+
+#page .container .blog-lefts .bloghead
+{
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+    color: #666;
+
+}
+
+#page .container .blog-lefts .blockcat li
+{
+  padding-bottom: 10px;
+  padding-top: 3px;
+  list-style: none;
+}
+
+#page .container .blog-lefts .blockcat a
+{
+    color: #666;
+    text-decoration: none;
+    cursor: pointer
+
+}
+#page .container .blockcat a:hover
+{
+    color: rgb(3, 171, 101);
+
 }
 
 footer
@@ -116,6 +220,7 @@ footer .container .side2  .side2-box .side2-linkname
     position: relative;
 }
 
+
 footer li{
     list-style: none;
 }
@@ -135,7 +240,6 @@ footer li a{
 }
 
 
-
 hr {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -146,3 +250,19 @@ hr {
     margin-bottom:16px;
 }
 
+.item-img {
+    
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.item-img img{
+    border-radius: 25px;
+}
+
+.lazy
+{   
+    transition: opacity 0.4s ease-in;
+    font-size: 12px;
+}
